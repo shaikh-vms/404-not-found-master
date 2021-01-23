@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@600&family=Space+Mono:wght@400;700&display=swap");
+
+*,
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-size: 1.25rem;
+  min-height: 99vh;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  padding: 1em 1.2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-item{
+  padding: 1em;
+}
+img{
+  width: 50%;
+  height: 60vh;
+}
+.intro-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+
+  font-family: "Space Mono", sans-serif;
+}
+
+button {
+  padding: 1em 1.5em;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 400;
+}
+footer {
+  display: block;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 525px) {
+  /* for  mobile phones */
+  .wrapper {
+    font-size: 16px;
+    max-width: 425px;
+  }
+
+  .container {
+    flex-grow: 2;
+    flex-direction: column;
+    padding-top: 1em;
+  }
+img{
+    width: auto;
+    height: 40vh;
+  }
+
+  .intro-text {
+    width: 100%;
+    flex-grow: 2;
+  }
+}
