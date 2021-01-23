@@ -39,7 +39,7 @@
 ### Desktop View
 ![screenshot](./output/Desktop_View.jpg)
 ### Mobile View
-![screenshot](./output/mobile_view.jpg)
+![<img src="./output/mobile_view.jpg" height="375px" width="812px">](./output/mobile_view.jpg)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
