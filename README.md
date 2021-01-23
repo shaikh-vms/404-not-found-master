@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/shaikh-vms/404-not-found-master">
+    <a href="https://devchallenges.io/solutions/e3QAtiXGoglJsqFl3DiZ">
       Solution
     </a>
     <span> | </span>
